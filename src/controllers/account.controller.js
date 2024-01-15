@@ -21,6 +21,7 @@ export const uploadProfilePicture = async (req, res) => {
 
   } catch (error) {
     console.log(error);
+     res.sendStatus(500);
   }
 };
 
